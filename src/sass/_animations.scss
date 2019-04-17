@@ -123,19 +123,19 @@ $aos-distance: 40px !default;
     }
 
     [data-aos='slide-up'] {
-      transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 20%, 0);
     }
 
     [data-aos='slide-down'] {
-      transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -20%, 0);
     }
 
     [data-aos='slide-right'] {
-      transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-20%, 0, 0);
     }
 
     [data-aos='slide-left'] {
-      transform: translate3d(100%, 0, 0);
+      transform: translate3d(20%, 0, 0);
     }
 
     /**
