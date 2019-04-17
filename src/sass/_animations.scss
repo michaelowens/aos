@@ -67,23 +67,23 @@ $aos-distance: 40px !default;
 }
 
 [data-aos='zoom-in'] {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 [data-aos='zoom-in-up'] {
-  transform: translate3d(0, $aos-distance, 0) scale(0.8);
+  transform: translate3d(0, $aos-distance, 0) scale(0.9);
 }
 
 [data-aos='zoom-in-down'] {
-  transform: translate3d(0, -$aos-distance, 0) scale(0.8);
+  transform: translate3d(0, -$aos-distance, 0) scale(0.9);
 }
 
 [data-aos='zoom-in-right'] {
-  transform: translate3d(-$aos-distance, 0, 0) scale(0.8);
+  transform: translate3d(-$aos-distance, 0, 0) scale(0.9);
 }
 
 [data-aos='zoom-in-left'] {
-  transform: translate3d($aos-distance, 0, 0) scale(0.8);
+  transform: translate3d($aos-distance, 0, 0) scale(0.9);
 }
 
 [data-aos='zoom-out'] {
